@@ -1,0 +1,47 @@
+body {
+  background-color: #3f88c5;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.formWrapper {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+.form {
+  display: flex;
+  padding: 10px;
+  width: 500px;
+  border: 2px solid #3375ac;
+  border-radius: 5px;
+  text-align: center;
+  flex-direction: column;
+}
+input {
+  outline: none;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.psi,
+.seed {
+  width: 50%;
+}
+.btns button {
+  background: #3fc6a8;
+  border: 1px solid #194e43;
+  border-radius: 5px;
+  height: 30px;
+}
+.animePhoto {
+  width: 300px;
+  height: 300px;
+}
